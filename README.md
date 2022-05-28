@@ -3,10 +3,9 @@
 ## https://github.com/jingjing-maker/SASC-YOLOX
 
 ## Introduction
-Self-atention and self-cooperation YOLOX (SASC-YOLOX) is av improved network based on YOLOX, with simple strategies but significant performance! It aims to extract precise smoke features and is applied to smoke detection.
-aims to bridge the gap between research and industrial communities. This repo is an implementation of PyTorch version SASC-YOLOX.
+Self-Atention and Self-Cooperation YOLOX (SASC-YOLOX) is aN improved network based on YOLOX, with simple strategies but significant performance! It aims to extract precise smoke features and is applied to smoke detection. This repo is an implementation of PyTorch version SASC-YOLOX.
 
-In addition, we provide a smoke dataset composed of real smoke images and annotate it manually, termed the annotated real smoke of Xi’an Jiaotong University (XJTU-RS). These real images are from two benchmark datasets: [CVPR](https://cvpr.kmu.ac.kr/) and [USTC](http://smoke.ustcdu.cn/datasets.html), and our [XJTU-RS](https://pan.baidu.com/s/13RMPlD8nStn_QzPEo7StEg ) dataset is available, and code is <b>cifr<b>.
+In addition, we provide a smoke dataset composed of real smoke images and annotate it manually, termed the annotated real smoke of Xi’an Jiaotong University (XJTU-RS). These real images are from two benchmark datasets: [CVPR](https://cvpr.kmu.ac.kr/) and [USTC](http://smoke.ustcdu.cn/datasets.html). Our [XJTU-RS](https://pan.baidu.com/s/15OjjiqiFXYHkzgbyIKP4QQ) dataset is available, and code is <b>CIFR<b>.
 
 
 <!-- For more details, please refer to our [report on Arxiv](https://arxiv.org/abs/2107.08430). -->
@@ -19,8 +18,8 @@ In addition, we provide a smoke dataset composed of real smoke images and annota
 
 |Model   |size  |AP|AP<sub>50|AP<sub>75|AP<sub>S|AP<sub>M|AP<sub>L|AR|Params<br>(M)|weights|
 | ------ |:---: | :---:    | :---:       |:---:     |:---:  | :---: | :----: | :----: | :----: | :----: |
-|YOLOX        |640  |0.683 |0.953 |0.766 |0.388 |0.602 |0.716 |0.678 |8.94| [down](https://pan.baidu.com/s/1KxNWKZ2poyHEsyq5JdaL0w?pwd=uc2m) |
-|SASC-YOLOX   |640  |0.726 |0.964 |0.817 |0.535 |0.647 |0.753 |0.714 |8.94| [down](https://pan.baidu.com/s/1mO4V0nuxJRxdUnJNoGQC6A?pwd=w1m0) |
+|YOLOX        |640  |0.683 |0.953 |0.766 |0.388 |0.602 |0.716 |0.678 |8.94| [down](https://pan.baidu.com/s/1CwqDfc1PfPjf_CGygQiLxA?pwd=2ld9) |
+|SASC-YOLOX   |640  |0.726 |0.964 |0.817 |0.535 |0.647 |0.753 |0.714 |8.94| [down](https://pan.baidu.com/s/1XVGC1qMVwLTx15qdp-yOww?pwd=l0jf) |
 
 ## Quick Start
 
@@ -168,11 +167,3 @@ python tools/eval.py -n  yolox-s -c yolox_s.pth -b 1 -d 1 --conf 0.001 --fp16 --
 If you use SASC-YOLOX in your research, please cite our work by using the following BibTeX entry:
     
   ( To be continued.)
-<!-- ```latex
- @article{yolox2021,
-  title={YOLOX: Exceeding YOLO Series in 2021},
-  author={Ge, Zheng and Liu, Songtao and Wang, Feng and Li, Zeming and Sun, Jian},
-  journal={arXiv preprint arXiv:2107.08430},
-  year={2021}
-}
-``` -->
