@@ -1,0 +1,7 @@
+.vscode
+build
+datasets-2
+weights
+yolox.egg-info
+__pycache__
+*.so
