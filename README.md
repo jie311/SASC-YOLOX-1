@@ -19,8 +19,8 @@ In addition, we provide a smoke dataset composed of real smoke images and annota
 
 |Model   |size  |AP|AP<sub>50|AP<sub>75|AP<sub>S|AP<sub>M|AP<sub>L|AR|Params<br>(M)|weights|
 | ------ |:---: | :---:    | :---:       |:---:     |:---:  | :---: | :----: | :----: | :----: | :----: |
-|YOLOX        |640  |0.683 |0.953 |0.766 |0.388 |0.602 |0.716 |0.678 |8.94| [down](./weights/YOLOX.pth) |
-|SASC-YOLOX   |640  |0.726 |0.964 |0.817 |0.535 |0.647 |0.753 |0.714 |8.94| [down](./weights/SASC-YOLOX.pth) |
+|YOLOX        |640  |0.683 |0.953 |0.766 |0.388 |0.602 |0.716 |0.678 |8.94| [down](https://pan.baidu.com/s/1KxNWKZ2poyHEsyq5JdaL0w?pwd=uc2m) |
+|SASC-YOLOX   |640  |0.726 |0.964 |0.817 |0.535 |0.647 |0.753 |0.714 |8.94| [down](https://pan.baidu.com/s/1mO4V0nuxJRxdUnJNoGQC6A?pwd=w1m0) |
 
 ## Quick Start
 
