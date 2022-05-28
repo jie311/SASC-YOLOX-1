@@ -1,7 +1,5 @@
 <img src="assets/demo.png" >
 
-## https://github.com/jingjing-maker/SASC-YOLOX
-
 ## Introduction
 Self-Atention and Self-Cooperation YOLOX (SASC-YOLOX) is an improved network based on YOLOX, with simple strategies but significant performance! It aims to extract precise features and is applied to smoke detection. This repo is an implementation of PyTorch version SASC-YOLOX.
 
