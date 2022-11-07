@@ -3,7 +3,7 @@
 ## Introduction
 Self-Atention and Self-Cooperation YOLOX (SASC-YOLOX) is an improved network based on YOLOX, with simple strategies but significant performance! It aims to extract precise features and is applied to smoke detection. This repo is an implementation of PyTorch version SASC-YOLOX.
 
-In addition, we provide a smoke dataset composed of real smoke images and annotate it manually, termed the annotated real smoke of Xi’an Jiaotong University (XJTU-RS). These real images are from two benchmark datasets: [CVPR](https://cvpr.kmu.ac.kr/) and [USTC](http://smoke.ustcdu.cn/datasets.html). Our [XJTU-RS](https://pan.baidu.com/s/1XGhQNKSkDd20CPpwiZ2flQ) dataset is available, and code is <b>CIFr<b>.
+In addition, we provide a smoke dataset composed of real smoke images and annotate it manually, termed the annotated real smoke of Xi’an Jiaotong University (XJTU-RS). These real images are from two benchmark datasets: [CVPR](https://cvpr.kmu.ac.kr/) and [USTC](http://smoke.ustcdu.cn/datasets.html). Our [XJTU-RS](https://pan.baidu.com/s/1XGhQNKSkDd20CPpwiZ2flQ) dataset is available, and code is <b>CIFR<b>.
 
 ##  <b>CIFR<b>
 
